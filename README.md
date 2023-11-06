@@ -7,10 +7,10 @@ This simple script allows you to easily use your mobile phone's hotspot data on 
 Follow these steps to use the script:
 
 1. **Download the Script:**
-   - Download the `Unlimited-Hotspot.bat` file from this repository to your computer.
+   - Download the `unlimitedhotspot.bat` file from this repository to your computer.
 
 2. **Run as Administrator:**
-   - Right-click on the downloaded `Unlimited-Hotspot.bat` file.
+   - Right-click on the downloaded `unlimitedhotspot.bat` file.
    - Select "Run as administrator" from the context menu.
 
 3. **Ready to Go:**
