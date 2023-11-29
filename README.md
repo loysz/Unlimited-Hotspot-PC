@@ -1,31 +1,36 @@
 # Unlimited Hotspot for PC
 
-This simple script allows you to easily use your mobile phone's hotspot data on your laptop or PC, giving you unlimited access to mobile data for your computer.
+This script, `unlimitedhotspot(improved).bat`, enables you to use your mobile phone's hotspot data on your laptop or PC, effectively providing unlimited mobile data access for your computer.
 
 ## Usage
 
-Follow these steps to use the script:
+To use the script, follow these simple steps:
 
 1. **Download the Script:**
-   - Download the `unlimitedhotspot.bat` file from this repository to your computer.
+   - Obtain the `unlimitedhotspot(improved).bat` file from this repository and save it to your computer.
 
 2. **Run as Administrator:**
-   - Right-click on the downloaded `unlimitedhotspot.bat` file.
-   - Select "Run as administrator" from the context menu.
+   - Locate the downloaded `unlimitedhotspot(improved).bat` file.
+   - Right-click on the file and choose "Run as administrator" from the context menu. This step is crucial as the script requires administrative privileges to modify network settings.
 
-3. **Ready to Go:**
-   - Once you run the script with administrator privileges, it will make the necessary adjustments to your network settings, allowing you to use your mobile phone's hotspot data on your computer.
+3. **Script Execution:**
+   - The script will automatically adjust your network settings, specifically the Time to Live (TTL) or Hop Limit, to enable the use of your phone's hotspot data on your computer.
 
 ## Important Notes
 
 - **Administrative Privileges:**
-  - The script requires administrative privileges to make changes to network settings. Make sure to run it as an administrator.
+  - Running the script as an administrator is mandatory for it to work correctly. The script includes a check for administrative privileges and will request them if not already granted.
 
-- **Changing Time to Live (Hop Limit):**
-  - The script will change your computer's Time to Live (Hop Limit) to 65, which is essential for using mobile hotspot data. This setting ensures that your computer can properly communicate with the mobile network.
+- **Modifying Time to Live (TTL):**
+  - The script changes the TTL setting of your computer to 65. This adjustment is essential for ensuring compatibility with mobile hotspot data usage, allowing your PC to communicate effectively with the mobile network.
 
-- **Limitations:**
-  - Keep in mind that using mobile hotspot data may be subject to your mobile data plan's limitations and charges. Ensure you have an appropriate data plan with your mobile service provider.
+- **Data Plan Considerations:**
+  - Be aware of the terms of your mobile data plan. Using a mobile hotspot can consume data quickly, and you should confirm that your plan accommodates this type of usage without incurring extra charges.
 
-- **Windows Only:**
-  - This script is designed for Windows operating systems and may not work on other platforms.
+- **Compatibility:**
+  - `unlimitedhotspot.bat` is specifically designed for Windows operating systems. Its functionality is not guaranteed on other platforms.
+
+- **Error Handling:**
+  - The script includes error handling for situations where the TTL adjustment may not succeed. Follow any on-screen instructions in case of an error.
+
+By following these guidelines, you can seamlessly use your mobile data on your PC, ensuring continuous internet access wherever you have mobile coverage.
